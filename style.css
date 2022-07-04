@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+.menu{
+    position: fixed;
+    background-color: beige;
+    width: 100%;
+    margin-top: 0%;
+    height: 50px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Source Code Pro', monospace; 
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px grey;
+}
+
+
+.links:hover{
+    text-decoration: underline;
+    font-size: x-large;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#welcome{
+    background: linear-gradient(aquamarine,aqua);
+    color: blue;
+    
+}
+
+.profile{
+  border-radius: 50%;
+  margin-top: 50px;
+  width: 500px;
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+}
+
+
+h2{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#bio{
+    padding: 50px;
+}
+
+
+.line{
+    height: 4px;
+    background-color: black;
+    width: 70px;
+    margin: auto;
+
+}
+p{
+    font-size: 20px;
+}
+
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+#writings a:hover{
+    color: crimson;
+}
+
+
+
+#contact{
+    background-color: firebrick;
+}
+
+#contact iframe{
+       width: 100%;
+}
+
+.conatct h3{
+    display: inline;
+}
